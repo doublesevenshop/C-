@@ -1,3 +1,8 @@
+/*
+    这里只是一个简单的例子实现，展示了如何使用分支来实现不同的进度条显示效果。
+    在new.cpp中，我们将使用观察者模式来完整的实现这个功能。
+*/
+
 #include <iostream>
 #include <chrono>
 #include <thread>
