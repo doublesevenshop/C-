@@ -5,7 +5,7 @@ using namespace std;
 // 抽象基类
 class Game {
 public:
-    // 定义算法的骨架
+    // 定义算法的骨架，这一个play的方法是固定不变的
     void play() {
         start();
         playing();
@@ -13,9 +13,9 @@ public:
     }
     virtual ~Game() {}
 protected:
-    virtual void start() = 0;
-    virtual void playing() = 0;
-    virtual void end() = 0;
+    virtual void start() = 0;   // 交给子类实现
+    virtual void playing() = 0; // 交给子类实现
+    virtual void end() = 0;     // 交给子类实现
 };
 
 
