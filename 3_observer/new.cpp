@@ -19,7 +19,7 @@ public:
     virtual void update(int value) = 0;
 };
 
-/* 主题接口定义 */
+/* 主体接口定义 */
 class ISubject {
 public:
     virtual ~ISubject() {}
