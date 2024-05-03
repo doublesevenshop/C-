@@ -26,6 +26,8 @@ public:
     }
 };
 // 还可以扩展紧急消息通过电子邮件发送，普通消息通过短信发送等，可以自行添加
+
+
 int main() {
     // 使用具体消息类型实例发送消息
     NormalEmailMessage normalMsg;
